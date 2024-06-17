@@ -12,7 +12,8 @@ Skrypt w Pythonie, który automatycznie testuje różne endpointy API przy użyc
 
 ## Wyniki
 Skrypt wyświetla wyniki sprawdzeń w czytelny sposób, np.:
-```Test 1: PASSED
+```
+Test 1: PASSED
 Test 2: PASSED
 Test 3: PASSED
 ```
