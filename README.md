@@ -25,40 +25,7 @@ Test 3: PASSED
 Plik Makefile, który zautomatyzuje procesy testowania i uruchamiania aplikacji w Pythonie. Makefile zawiera reguły dla instalacji zależności, uruchamiania testów jednostkowych oraz uruchamiania aplikacji.
 
 ## Użycie
-1. Zainstaluj MSYS2 z [oficjalnej strony MSYS2](https://www.msys2.org/) i otwórz go.
-2. Zainstaluj narzędzie `make`:
-    ```sh
-    pacman -Syu
-    pacman -S make
-    ```
-3. Dodaj MSYS2 do zmiennej PATH, aby `make` było dostępne w Git Bash.
-4. Przejdź do katalogu projektu:
-    ```sh
-    cd /path/to/your/project
-    ```
-5. Utwórz plik Makefile i dodaj do niego odpowiednie reguły:
-    ```sh
-    nano Makefile
-    ```
-
-6. Skopiuj poniższy kod do pliku Makefile:
-    ```makefile
-    # Reguła do instalacji zależności
-    install:
-        pip install -r requirements.txt
-
-    # Reguła do uruchamiania testów jednostkowych
-    test:
-        python -m unittest test_app.py
-
-    # Reguła do uruchamiania aplikacji
-    run:
-        python app.py 2 3
-    ```
-
-7. Zapisz zmiany i zamknij edytor.
-
-8. Uruchom reguły Makefile:
+1. Uruchom reguły Makefile:
     - Instalacja zależności:
         ```sh
         make install
